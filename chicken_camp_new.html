@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <script type="text/JavaScript">
+
+    function MM_preloadImages() { //v3.0
+    var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+      var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+      if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+
+    function MM_findObj(n, d) { //v4.01
+    var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+      d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+    if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    if(!x && d.getElementById) x=d.getElementById(n); return x;
+    }
+
+    function MM_nbGroup(event, grpName) { //v6.0
+    var i,img,nbArr,args=MM_nbGroup.arguments;
+    if (event == "init" && args.length > 2) {
+      if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+        img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+        if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+        nbArr[nbArr.length] = img;
+        for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+          if (!img.MM_up) img.MM_up = img.src;
+          img.src = img.MM_dn = args[i+1];
+          nbArr[nbArr.length] = img;
+      } }
+    } else if (event == "over") {
+      document.MM_nbOver = nbArr = new Array();
+      for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+        nbArr[nbArr.length] = img;
+      }
+    } else if (event == "out" ) {
+      for (i=0; i < document.MM_nbOver.length; i++) {
+        img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+    } else if (event == "down") {
+      nbArr = document[grpName];
+      if (nbArr)
+        for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+      document[grpName] = nbArr = new Array();
+      for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+        nbArr[nbArr.length] = img;
+    } }
+    }
+
+  </script>
+
+
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+    <meta name="generator" content="Adobe GoLive">
+
+    <title>Great Companions: "Chicken Camp -- I thought you were a dog trainer?!"</title>
+
+    <csscriptdict import>
+      <script type="text/javascript" src="GeneratedItems/CSScriptLib.js"></script>
+    </csscriptdict>
+
+    <meta name="keywords" content="dog, training, Lehigh Valley, Allentown, Bethlehem, Neffs, Slatington, PA, Pennsylvania, obedience, agility, puppies, puppy, ali, brown, non-force, force, positive, great companions, companion, rally, rally-o, rally obedience, social, barking, behavior, behaviorist, aggression, reactive, biting, house breaking, house train, learn, reward, canine, nutrition, aggressive, bite, Scaredy Dog, fearful, leash, motivation, pet, anxiety, pull, choke chain">
+    <meta name="revisit-after" content="7 days">
+
+    <csimport user="../web-data/Components/Bottom.html" occur="61">
+      <link href="GreatCompanions2004.css" rel="stylesheet" type="text/css" media="all">
+    </csimport>
+
+    <csimport user="../web-data/Components/Bottom.html" occur="61"></csimport>
+    <csimport user="../web-data/Components/Bottom.html" occur="61"></csimport>
+
+    <csactiondict>
+      <script type="text/javascript">
+        var preloadFlag = false;
+        function preloadImages() {
+          if(document.images) {
+            preloadImagesTmp001B7513();
+            preloadFlag = true;
+          }
+        }
+      </script>
+    </csactiondict>
+
+    <style type="text/css">
+
+      #body{
+        margin: 1rem;
+      }
+
+      #images{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .nav-option {
+        background-color: rgb(12, 0, 125);
+        color: white;
+        height: 2rem;
+        width: 6rem;
+        margin: 1rem;
+        padding: .5rem;
+        text-align: center;
+      }
+
+      .body-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 3rem;
+      }
+
+    </style>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12365154-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);  })();
+    </script>
+
+  </head>
+
+	<body id="body" onLoad="preloadImages();void(0);MM_preloadImages('images/MenuBar_02.gif','images/MenuBar_02-over.gif','images/MenuBar_03.gif','images/MenuBar_03-over.gif','images/MenuBar_04.gif','images/MenuBar_04-over.gif','images/MenuBar_05.gif','images/MenuBar_05-over.gif','images/MenuBar_06.gif','images/MenuBar_06-over.gif','images/MenuBar_07.gif','images/MenuBar_07-over.gif','images/MenuBar_08.gif','images/MenuBar_08-over.gif','images/MenuBar_09.gif','images/MenuBar_09-over.gif','images/MenuBar_10.gif','images/MenuBar_10-over.gif','images/MenuBar_11.gif','images/MenuBar_11-over.gif','images/MenuBar_12.gif','images/MenuBar_12-over.gif','images/MenuBar_13.gif','images/MenuBar_13-over.gif','images/MenuBar_14.gif','images/MenuBar_14-over.gif','images/MenuBar_15.gif','images/MenuBar_15-over.gif')" bgcolor="#ffffff" link="#3300cc" vlink="#3300cc" alink="#3300cc" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+    <div id="container">
+      <!-- <div id="Navigaton">
+        <a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','Nav01TopBar','',1)" onMouseOver="MM_nbGroup('over','Nav01TopBar','','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_01short.jpg" alt="Top of Navigation Bar" name="Nav01TopBar" width="100" height="52" border="0" onload="">
+        </a>
+        <br>
+        <a href="OurApproach.html" target="_top" onClick="MM_nbGroup('down','group1','Nav02OurApproach','../images/MenuBar_02.gif',1)" onMouseOver="MM_nbGroup('over','Nav02OurApproach','../images/MenuBar_02-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_02.gif" alt="Our Approach to Dog Training Navigation Button" name="Nav02OurApproach" width="100" height="35" border="0" onload="">
+        </a>
+        <br>
+        <a href="AboutTrainer.html" target="_top" onClick="MM_nbGroup('down','group1','Nav03TheTrainers','../images/MenuBar_03.gif',1)" onMouseOver="MM_nbGroup('over','Nav03TheTrainers','../images/MenuBar_03-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_03.gif" alt="About the Trainers at Great Companions Navigation Button" name="Nav03TheTrainers" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="Courses.html" target="_top" onClick="MM_nbGroup('down','group1','Nav04Courses','../images/MenuBar_04.gif',1)" onMouseOver="MM_nbGroup('over','Nav04Courses','../images/MenuBar_04-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_04.gif" alt="Courses offered at Great Companions Navigation Button" name="Nav04Courses" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="ClassSchedule.html" target="_top" onClick="MM_nbGroup('down','group1','Nav05ClassSchedule','../images/MenuBar_05.gif',1)" onMouseOver="MM_nbGroup('over','Nav05ClassSchedule','../images/MenuBar_05-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_05.gif" alt="Schedule of Classes Navigation Button" name="Nav05ClassSchedule" width="100" height="37" border="0" onload="">
+        </a>
+        <br>
+        <a href="Puppies!.html" target="_top" onClick="MM_nbGroup('down','group1','Nav06Puppies','../images/MenuBar_06.gif',1)" onMouseOver="MM_nbGroup('over','Nav06Puppies','../images/MenuBar_06-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_06.gif" alt="Important info about Puppies Navigation Button" name="Nav06Puppies" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="SocialDogs.html" target="_top" onClick="MM_nbGroup('down','group1','Nav07Socialization','../images/MenuBar_07.gif',1)" onMouseOver="MM_nbGroup('over','Nav07Socialization','../images/MenuBar_07-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_07.gif" alt="Socializing your Dog Navigation Button" name="Nav07Socialization" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="reactive_dogs.html" target="_top" onClick="MM_nbGroup('down','group1','Nav08ReactiveDogs','../images/MenuBar_08.gif',1)" onMouseOver="MM_nbGroup('over','Nav08ReactiveDogs','../images/MenuBar_08-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_08.gif" alt="Dealing with a Reactive Dog Navigation Button" name="Nav08ReactiveDogs" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="Nutrition.html" target="_top" onClick="MM_nbGroup('down','group1','Nav09Nutrition','../images/MenuBar_09.gif',1)" onMouseOver="MM_nbGroup('over','Nav09Nutrition','../images/MenuBar_09-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_09.gif" alt="Nutrition Affects Your Dog's Behavior Navigation Button" name="Nav09Nutrition" width="100" height="35" border="0" onload="">
+        </a>
+        <br>
+        <a href="Reinforcers.html" target="_top" onClick="MM_nbGroup('down','group1','Nav10Rewards','../images/MenuBar_10.gif',1)" onMouseOver="MM_nbGroup('over','Nav10Rewards','../images/MenuBar_10-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_10.gif" alt="What is a Reward in Positive Training Navigation Button" name="Nav10Rewards" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="ScaredyDog.html" target="_top" onClick="MM_nbGroup('down','group1','Nav11Books','../images/MenuBar_11.gif',1)" onMouseOver="MM_nbGroup('over','Nav11Books','../images/MenuBar_11-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_11.gif" alt="Ali Brown's Books available at Dogwise Navigation Button" name="Nav11Books" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="seminars.html" target="_top" onClick="MM_nbGroup('down','group1','Nav12Seminars','../images/MenuBar_12.gif',1)" onMouseOver="MM_nbGroup('over','Nav12Seminars','../images/MenuBar_12-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_12.gif" alt="Host a Reactive Dog Seminar at Your Location Navigaton Button" name="Nav12Seminars" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="Links.html" target="_top" onClick="MM_nbGroup('down','group1','Nav13ContactsLinks','../images/MenuBar_13.gif',1)" onMouseOver="MM_nbGroup('over','Nav13ContactsLinks','../images/MenuBar_13-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_13.gif" alt="Our Contacts and Suggested Links Navigation Button" name="Nav13ContactsLinks" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="hints.html" target="_top" onClick="MM_nbGroup('down','group1','Nav14BragsPhotos','../images/MenuBar_14.gif',1)" onMouseOver="MM_nbGroup('over','Nav14BragsPhotos','../images/MenuBar_14-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_14.gif" alt="Training Tips Navigation Button" name="Nav14BragsPhotos" width="100" height="36" border="0" onload="">
+        </a>
+        <br>
+        <a href="index.html" target="_top" onClick="MM_nbGroup('down','group1','Nav15Home','../images/MenuBar_15.gif',1)" onMouseOver="MM_nbGroup('over','Nav15Home','../images/MenuBar_15-over.gif','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_15.gif" alt="Go Back to the Home Page Navigation Button" name="Nav15Home" width="100" height="39" border="0" onload="">
+        </a>
+        <br>
+        <a href="javascript:;" target="_top" onClick="MM_nbGroup('down','group1','Nav16BottomBlank','',1)" onMouseOver="MM_nbGroup('over','Nav16BottomBlank','','',1)" onMouseOut="MM_nbGroup('out')">
+          <img src="images/MenuBar_16.jpg" alt="Bottom of Navigation Bar" name="Nav16BottomBlank" width="100" height="174" border="0" onload="">
+        </a>
+        <br>
+      </div> -->
+
+
+      <div id="images">
+
+        <img id="title-img" src="images/GreatCompTitle.gif" alt="Great Companions LLC, Learn To Be Your Dog's Reward" title="Great Companions, Learn to be Your Dog's Reward">
+        <img src="images/3dog_e-Small_02.jpg" alt="3 dog logo">
+
+      </div>
+
+      <div class="nav">
+        <div class="nav-option">Our Approach</div>
+        <div class="nav-option">Courses</div>
+        <div class="nav-option">Blog</div>
+        <div class="nav-option">"Scardy Dog!" Book</div>
+      </div>
+
+      <div id="Layer39" style="background: #3333FF"">
+        <h1>Chicken Camp</h1>
+      </div>
+
+        <div id="Layer67">
+          <p>
+            <strong>I THOUGHT YOU WERE A DOG TRAINER!</strong> -- <strong>March 10, 2008</strong>
+            <br><br>
+            In December 2007, Ali flew out to Washington State to attend a 5-day (40-plus hour) workshop during which time she trained two chickens. The course took place at Terry and Bill Ryan's Legacy Training Center (<a href="http://www.legacycanine.com/">www.legacycanine.com</a>) and was run by the living legend, Bob Bailey. Bob has been a major player in the evolution of animal training for the past 50 years (for a more detailed biography, please see <a href="http://www.hsnp.com/behavior/page8.html">http://www.hsnp.com/behavior/page8.html</a>).<br>
+            <br><br>
+            Bob runs camps of differing lengths which address different issues. This particular camp was called "Discrimination". The focus of this camp was to teach participants the intricacies of operant conditioning, timing, the use of clicker training as a mechanical skill, criteria and rates of reinforcement. We used chickens because they are simple animals (and they peck fast!) but they are not stupid. If you click at the wrong time, it's really easy to train the wrong skill!<br>
+            <br><br>
+            I consider myself a pretty good trainer, but I knew that this course would really stretch my brain as well as my abilities. At the beginning of the course, each of us was given two chickens to train. One chicken was to learn to differentiate between shapes (square, rectangle, circle and hexagon) and the other was to differentiate between colors (red, blue and yellow). I really had no idea how we were going to teach all of this!
+          </p>
+
+          <div id="Layer32" class="body-img">
+            <img src="images/ChickenCamp_TerryAliBob.jpg" alt="Terry Ryan, Ali Brown and Bob Bailey pose with Ali's graduation certificate">
+            <h4>Terry Ryan, Ali Brown and Bob Bailey pose with Ali's graduation certificate from Chicken Camp in December 2007</h4>
+          </div>
+          
+          <p>
+            We divided up into teams of two humans. Each team member had his or her own two chickens and was responsible for coaching the other human to train his or her chickens. We supported each other, encouraged each other, and helped with some of the more challenging tasks when it came to coming up with a training game plan, needing a third hand, moving targets, refilling feed cups, etc. We took turns training our chickens so the chickens didn't fatigue. But the most important reason for having a partner was to learn how to support your teammate through the process. And it was a grueling process.
+            The first task for us humans didn't involve the chickens at all; we had to learn how to move a food cup full of chicken feed without spilling it all over the place. This proved to be quite a humiliating task in and of itself!
+            <br><br>
+            Once we mastered that, we learned how to place the cup on a particular spot on a table and then move it away as quickly as possible in rapid fire succession. In addition, the clicker had been attached to the handle of the feed cup, so we had to click, bring the cup down to a certain spot, and bring it back up again. The best of us were able to do this about 44 times per minute; the best ever, apparently, did this 60 times per minute!
+            <br><br>
+            Once we were able to handle our tools, we learned how to extract the chickens from their cages, how to carry them, and how to replace them in their cages. It was all a very interesting husbandry lesson which I enjoyed. The next step allowed us to become comfortable with carrying a chicken out, placing it on the table, and clicking and treating it as quickly and cleanly as possible. All of this, so far, took half a day.
+            <br><br>
+            Next, we began clicking our chickens for pecking a black round paper target which had been placed on the table. We had to click for pecking, not for raking (a rake scooping  movement which draws the beak toward the chicken's body). And we had to click for pecking the middle of the target - we used shaping for that. When the chicken was pecking the middle of the target 80% of the time, that chicken was given a smaller target to peck. Once the chicken pecked the middle of the smaller target, we placed the four shapes (paper) in front of the chicken. The first shape that was pecked was removed and given a #4 rank. The second shape that was pecked was given a #3 rank, then the third shape was #2 and the remaining shape became #1, or the "hot target".
+            <br><br>
+            The chicken was trained to peck the middle of the hot target 80% of the time over a number of sessions. Then the target was moved around on the table so that the chicken had  to seek it out and peck it. Again, the chicken had to reach the 80% success  rate, after which the #2 target was introduced in addition to the hot target on  the table. The chicken was allowed one free wrong peck, after which the hot  target was removed. If the chicken pecked the hot target, it got clicked and  treated. If she pecked the #2 target, the hot target was removed and we waited  until the chicken stood still on the table. Once the chicken stood still, the  hot target was again placed on the table, giving the chicken the opportunity to give a correct response. The challenge to this step is that if the chicken isn't sure what to do, it may rake, or it may scratch. Clicking scratching (a natural food-getting behavior, just like raking and pecking) is a HUGE error because it is so naturally rewarding that it doesn't go away! One girl in our group actually managed to accidently train her chicken to spin, and then to train away from it. The reason this happened was bad timing.
+          </p>
+          
+          <br>
+
+          <div id="Layer33" class="body-img">
+            <img src="images/ChickenCamp_GraduatingClass.jpg" alt="Chicken Camp Graduating Class">
+            <h4>Chicken Camp graduating class of Dec 2007. Ali's is in the 3rd row center.</h4>
+          </div>
+          
+          <br>
+
+          <p>
+            When the chicken was able to differentiate the hot target from the #2 target, the #3 and then the #4 target was introduced. When the 80% success rate for the hot target was reached, the targets were moved around on the table so that the chicken had to seek out the hot target which appeared in different places, thus generalizing the response. On the rare occasion when my chicken (I called her Sassy) pecked the wrong target and I removed the hot target, she stood perfectly still and looked at me, waiting for her beloved target to reappear. These chickens really became attached to their targets! (in behavioral terms, they had very strong reinforcement histories with their targets).
+            <br><br>
+            Then came "chicken torture". We began to remove the hot target and test the chicken for her ability to NOT peck anything else until the hot target was replaced on the table. We built up the chicken's stamina until she could wait for about 20 seconds for her hot target to reappear. We also added to the torture by suggesting other targets by tapping on them with our fingers, holding them up to the chicken's face, moving them around, etc. When we felt that our chicken had really learned to ONLY peck at the hot target, Bob came over to test us and our chicken. He REALLY tortured the chickens! He wanted to see them avoid pecking other targets and wait for their hot targets for 30 seconds, regardless of what other targets he suggested (even if it meant holding a different target up to her face).
+            <br><br>
+            If Bob determined that your chicken had passed, it was time for the ultimate test for this particular chicken. It's called the Stimulus Reversal. While all other training sessions lasted one minute (at the beginning we were only training a chicken for 10 seconds), this was one loooong session. In ONE session, we had to teach the chicken to ignore the hot target and to peck ONLY the #2 target (which was now going to be the hot target)! The moment of truth was whether we could get our chicken to peck only the new hot target when it was next to each of the other targets, in turn, including the original hot target. For me, it was a long and grueling task, requiring tons of very fast clicks and treats. It was mentally and physically exhausting. One wrong click could send you into another universe, requiring nearly starting over, or worse. In the end, we got it!
+            <br><br>
+            At the same time, we began to work with our second chicken on color discrimination. The same process was used, only this time the targets were three colors instead of four shapes. Chickens can see a range of colors pretty close to what humans see.
+            <br><br>
+            Students ran the gamut from highly motivated and scientific in their approach to easily frustrated and needing tons of input and support. But we had a great group of  22 students who all got along and cheered each other as we went. Bob had tons of video and lecture on related topics, and lunch times were great social events. Terry and Bill really know how to run their events; everything was extremely well organized and in all, not only was it a fabulous learning experience, it was a fantastic venue for networking and getting to know folks from all over the USA and beyond. I was stunned by the variety of backgrounds folks had - from dog trainers to dermatologists!
+            <br><br>
+            It was really a neat experience to train a species other than dog (or human). Chickens are much quicker in their responses than dogs, so this workshop really helped me to get my timing down. The mantra for the week seemed to be, "You're late!" I got better as we went along! This information will help me to be a better teacher in all levels of classes, and will help me to problem solve issues with my own dogs in their training, as well. An added bonus is that it gave me ideas on  ways to teach new tricks to dogs, like selecting particular toys - not that Acacia would ever see fit to select toys at all!
+            <br><br>
+            Bob offers three higher levels of camps, but sadly, I won't be able to attend any more this year. Given the opportunity in the future, I'd jump at the chance. Bob isn't a dog trainer, but his incredible knowledge base can teach us dog trainers and teachers of humans so much that it's a shame he can't offer these courses everywhere, all the time. It was a great end to 2007 - and I hope to have another stab at a chicken camp some day!
+          </p>
+
+        <div id="Layer18">
+          <p>Ali
+            <br><br>
+            Comments about this blog, email <a href="mailto: pete@e-production.net">pete@e-production.net</a>, (your comments may be posted). <br>
+            <br><br>
+            <a href="bing_blog_main.html">Return to the Main Blog Page.</a>
+            <br><br>
+            <a href="mailto: tanacacia@aol.com">Send email to Ali Brown</a>
+            <br><br>
+          </p>
+
+          <div id="Footer">
+            <h6>
+              <a href="index.html">Home</a> / 
+              <a href="TheBingBlogs.html">Bing Blog</a> / 
+              <a href="OurApproach.html">Our Approach</a> / 
+              <a href="AboutTrainer.html">The Trainer</a> / 
+              <a href="Courses.html">Courses</a> / 
+              <a href="ClassSchedule.html">Schedule</a> / 
+              <a href="Puppies!.html">Puppies!</a> / 
+              <a href="SocialDogs.html">Social Dogs</a> / 
+              <a href="reactive_dogs.html">Reactive Dogs</a>
+              <br>
+              <a href="Nutrition.html">Nutrition</a> / 
+              <a href="Reinforcers.html">Rewards</a> / 
+              <a href="ScaredyDog.html">"Scaredy Dog!" Book & DVD</a> / 
+              <a href="seminars.html">Seminars</a> / 
+              <a href="Links.html">Contacts & Links</a> / 
+              <a href="mailto:ali@greatcompanions.info">email Ali Brown</a>
+            </h6>
+
+            <h3>
+              GREAT COMPANIONS -- Great Dog Training for the Lehigh Valley, Allentown & Bethlehem -- 610 737-1550
+              <br>
+              2020 Great Companions LLC, Lehigh Valley, PA. Learn To Be Your Dog's Reward!
+            </h3> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
